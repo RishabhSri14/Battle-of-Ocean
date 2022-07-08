@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* height: 100%;
+  width: 100%; */
+}
+
+#game {
+  display: flex;
+  background-color: brown;
+}
+
+#game > span {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+button {
+  background-color: rgb(187, 255, 0);
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+button:hover {
+  border: 4px solid #52046a;
+}
+
+#buyCanon {
+  background-color: darkseagreen;
+}
